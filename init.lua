@@ -1,6 +1,12 @@
 -- bootstrap lazy.nvim, LazyVim and your plugins
 require("config.lazy")
-require("lazy").setup({ { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" } })
+require("lazy").setup({
+  { "nvim-treesitter/nvim-treesitter", build = ":TSUpdate" },
+  {
+    "nvim-telescope/telescope.nvim",
+    tag = "0.1.8",
+  },
+})
 require("lspconfig").pyright.setup({})
 
 -- color scheme
