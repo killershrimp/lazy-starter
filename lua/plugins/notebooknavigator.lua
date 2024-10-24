@@ -2,13 +2,13 @@ return {
   "GCBallesteros/NotebookNavigator.nvim",
   keys = {
     {
-      "]h",
+      "]j",
       function()
         require("notebook-navigator").move_cell("d")
       end,
     },
     {
-      "[h",
+      "[k",
       function()
         require("notebook-navigator").move_cell("u")
       end,
@@ -18,9 +18,9 @@ return {
   },
   dependencies = {
     "echasnovski/mini.comment",
-    "hkupty/iron.nvim", -- repl provider
+    -- "hkupty/iron.nvim", -- repl provider
     -- "akinsho/toggleterm.nvim", -- alternative repl provider
-    -- "benlubas/molten-nvim", -- alternative repl provider
+    "benlubas/molten-nvim", -- alternative repl provider
     "anuvyklack/hydra.nvim",
   },
   event = "VeryLazy",

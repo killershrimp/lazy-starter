@@ -21,5 +21,6 @@ return {
     g.ale_cpp_clangformat_style_options = "--style=Google"
 
     g.ale_fix_on_save = 1
+    g.ale_completion_enabled = 1
   end,
 }
