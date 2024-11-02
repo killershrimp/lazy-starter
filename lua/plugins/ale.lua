@@ -1,7 +1,7 @@
 return {
   "dense-analysis/ale",
   config = function()
-    local max_line_length = 90
+    local max_line_length = "90"
     -- Configuration goes here.
     local g = vim.g
 
