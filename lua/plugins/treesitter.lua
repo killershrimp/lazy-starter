@@ -27,7 +27,7 @@ return {
             "rust",
           },
           sync_install = false,
-          highlight = { enable = true },
+          highlight = { enable = false },
           indent = { enable = true },
         })
       end,
