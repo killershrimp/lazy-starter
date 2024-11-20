@@ -8,6 +8,7 @@ require("lazy").setup({
   },
 })
 require("lspconfig").pyright.setup({})
+require("lspconfig").clangd.setup({})
 
 -- color scheme
 require("rose-pine").setup({
