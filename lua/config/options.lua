@@ -3,6 +3,8 @@
 -- Add any additional options here
 
 vim.g.mapleader = "\\"
-vim.opt.cursorcolumn = true
 vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/neovim/bin/python3")
+
+vim.opt.cursorcolumn = true
 vim.opt.scrolloff = 10
+vim.opt.smoothscroll = true
