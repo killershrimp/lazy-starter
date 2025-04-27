@@ -18,6 +18,7 @@ return {
             "query",
             "elixir",
             "heex",
+            "java",
             "javascript",
             "html",
             "latex",

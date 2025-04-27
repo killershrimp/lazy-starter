@@ -6,6 +6,7 @@ return {
     config = function()
       local lspconfig = require("lspconfig")
       lspconfig["clangd"].setup({})
+      -- lspconfig["jdtls"].setup({})
       lspconfig["pyright"].setup({})
 
       local keymap = vim.keymap

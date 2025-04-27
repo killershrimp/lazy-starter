@@ -13,6 +13,7 @@ return {
       "Underfull \\hbox",
       "Overfull \\hbox",
       "LaTeX Warning: .\\+ float specifier changed to",
+      "LaTeX Font Warning:",
     }
   end,
 }
