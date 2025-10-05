@@ -8,4 +8,4 @@ vim.g.python3_host_prog = vim.fn.expand("~/.virtualenvs/neovim/bin/python3")
 vim.opt.cursorcolumn = true
 vim.opt.scrolloff = 10
 vim.opt.smoothscroll = true
-vim.opt.updatetime = 100 -- faster completion time
+vim.opt.updatetime = 10 -- faster completion time

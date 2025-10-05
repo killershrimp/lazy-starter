@@ -8,6 +8,7 @@ return {
       lspconfig["clangd"].setup({})
       -- lspconfig["jdtls"].setup({})
       lspconfig["pyright"].setup({})
+      lspconfig["tsserver"].setup({})
 
       local keymap = vim.keymap
       vim.api.nvim_create_autocmd("LspAttach", {

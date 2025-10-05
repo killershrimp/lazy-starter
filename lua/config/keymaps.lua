@@ -4,3 +4,7 @@
 
 vim.keymap.set("n", "<leader>cce", "<cmd>Copilot enable<CR>", { desc = "Enable Copilot" })
 vim.keymap.set("n", "<leader>ccd", "<cmd>Copilot disable<CR>", { desc = "Disable Copilot" })
+
+-- run last command easily
+local def_opts = { silent = false, noremap = true }
+vim.keymap.set({ "n", "v" }, "<CR>", ":<up>", def_opts)
